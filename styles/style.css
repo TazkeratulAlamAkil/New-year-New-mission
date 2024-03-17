@@ -147,3 +147,87 @@ p {
 #btn-join-party {
     background-color: transparent
 }
+
+/* Schedule Section */
+#schedule {
+    height: 50vh;
+    background: linear-gradient(180deg, rgba(255, 0, 0, 0.10) 0%, rgba(255, 0, 0, 0.00) 100%);
+    position: relative;
+}
+
+.schedule-info {
+    text-align: center;
+    font-size: 20px;
+    font-weight: bolder;
+
+    position: absolute;
+    top: 15%;
+    left: 38%;
+}
+
+.schedule-info span {
+    color: red;
+}
+
+#schedule-btn {
+    background-color: red;
+}
+
+/* best offer */
+#best-offer {
+    height: 50vh;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+#best-offer-container {
+    display: flex;
+    justify-content: space-evenly;
+    /* align-items: center; */
+    gap: 3%;
+    position: relative;
+}
+
+.items {
+    width: 25vw;
+    height: 35vh;
+}
+
+#items-1 h2 {
+    margin: 0;
+}
+
+
+#items-2 {
+    width: 20vw;
+    height: 38vh;
+    border: 15px solid red;
+    border-radius: 50%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#inner-items-2 {
+    width: 15vw;
+    height: 30vh;
+    background-image: url(../resources/Ellipse\ 1.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+#items-3 {
+    width: 20vw;
+    height: 20vh;
+}
+
+#items-4 {
+    width: 5vw;
+    height: auto;
+    position: absolute;
+    top: 75%;
+    right: 20%;
+}
