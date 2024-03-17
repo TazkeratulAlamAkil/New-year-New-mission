@@ -333,3 +333,46 @@ p {
 .product:hover {
     transform: scale(1.1);
 }
+
+/* Subscribe Section */
+#newsLetter {
+    height: 50vh;
+    border-radius: 16px;
+    background: rgba(255, 0, 0, 0.05);
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.newsletter-mail-img {
+    width: 5vw;
+}
+
+#newsLetter-info {
+    width: 40vw;
+}
+
+.newsletter-subscribe {
+    background-color: white;
+    border: 0;
+    border-radius: 20px;
+}
+
+.newsletter-subscribe>input {
+    border: 1px solid white;
+    border-radius: 20px 0 0 20px;
+    padding: 15px;
+}
+
+.newsletter-subscribe>input:focus {
+    outline: 0;
+}
+
+.newsletter-subscribe button {
+    background-color: red;
+    border-radius: 0 20px 20px 0;
+    padding: 15px 30px;
+}
