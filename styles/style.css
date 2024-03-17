@@ -296,3 +296,40 @@ p {
     top: -180%;
     left: 10%;
 }
+
+/* Portfolio Products */
+#portfolio {
+    height: 100vh;
+    padding: 10px;
+}
+
+#portfolio-info {
+    width: 60vw;
+    margin: 10px auto;
+}
+
+#portfolio-products {
+    width: 70vw;
+    display: grid;
+    justify-content: center;
+    grid-template-columns: 20vw 20vw 20vw;
+    gap: 10px;
+    margin: 10px auto;
+}
+
+.product {
+    height: 38vh;
+    background-color: rgba(255, 255, 255, 0.8);
+    border: 0;
+    border-radius: 10px;
+    transition: transform 0.3s ease;
+}
+
+.product img {
+    height: 38vh;
+    border-radius: 10px;
+}
+
+.product:hover {
+    transform: scale(1.1);
+}
