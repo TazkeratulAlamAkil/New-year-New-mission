@@ -231,3 +231,68 @@ p {
     top: 75%;
     right: 20%;
 }
+
+/* Holidays sale Section */
+#holidays-sale-container {
+    height: 90vh;
+
+}
+
+.Holiday-sale-outer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.Holidays-sale-info {
+    width: 45vw;
+    text-align: center;
+}
+
+.Holidays-sale-info h1 {
+    font-size: 40px;
+    margin: 0;
+}
+
+
+.holidays-img-container {
+    height: 40vh;
+    position: relative;
+}
+
+.holidays-img img {
+    width: 20vw;
+    height: 40vh;
+
+    position: absolute;
+    top: 0;
+    right: 2%;
+}
+
+.offer-number-img {
+    width: 10vw;
+    height: 20vh;
+
+    position: absolute;
+    top: 10%;
+    right: 15vw;
+}
+
+.holidays-designs-container {
+    height: 20vh;
+    position: relative;
+}
+
+.holidays-design-1 img {
+    height: 20vh;
+    border-radius: 20px;
+}
+
+.holidays-design-2 {
+    width: 30vw;
+    height: 20vh;
+    position: absolute;
+    top: -180%;
+    left: 10%;
+}
