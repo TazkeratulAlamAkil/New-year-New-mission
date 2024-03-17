@@ -113,3 +113,37 @@ p {
     height: 50vh;
 }
 
+/* Midnight party */
+#party-banner {
+    background-image: url(../resources/Vectorrr.png);
+}
+
+.party-info {
+    width: 70vw;
+    position: absolute;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    top: 8%;
+    left: 5%;
+}
+
+#party-details {
+    color: white;
+    width: 40vw;
+}
+
+#party-details h1 {
+    font-size: 42px;
+}
+
+.party-banner-inner-img {
+    width: 20vw;
+    height: 60vh;
+}
+
+#btn-join-party {
+    background-color: transparent
+}
